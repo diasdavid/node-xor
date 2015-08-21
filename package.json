@@ -1,14 +1,18 @@
 {
   "name": "xor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "xor buffers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterbraden/node-xor.git"
+  },
   "author": "Peter Braden",
   "license": "BSD",
   "dependencies": {
-    "bignum": "~0.6.2"
+    "bignum": "~0.11.0"
   }
 }
